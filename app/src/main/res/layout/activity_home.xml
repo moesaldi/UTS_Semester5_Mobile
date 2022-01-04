@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    tools:context=".Login">
+
+
+
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="30dp"
+            android:textColor="@color/black"
+            android:text="Masukan Data Diri Anda"/>
+
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/upload"
+                android:id="@+id/btnUpload"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload foto anda"/>
+
+
+
+        <EditText
+            android:drawablePadding="5dp"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:elevation="10dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/edNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:hint="Nama"/>
+        <EditText
+            android:drawablePadding="5dp"
+            android:background="@drawable/bg_edtext"
+            android:padding="10dp"
+            android:elevation="10dp"
+            android:layout_marginTop="30dp"
+            android:id="@+id/edNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:hint="NIM"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/bg_button"
+            android:layout_marginTop="20dp"
+            android:id="@+id/btnsubmit"
+            android:textSize="15sp"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Submit"
+            android:textColor="@color/white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+
+</LinearLayout>
